@@ -41,7 +41,7 @@ if(playerInput == '1'){
 } else if (playerInput == '3'){
     playerMove = 'nożyce'
 } else {
-    prompt('Nieznany ruch! Podaj liczbę z zakresu 1, 2 lub 3');
+    prompt('Uwaga! Nieznany ruch! Podaj liczbę z zakresu 1, 2 lub 3');
     if (playerInput == '1') {
         playerMove = 'kamień'
     } else if (playerInput == '2') {
