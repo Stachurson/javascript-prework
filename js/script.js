@@ -1,5 +1,5 @@
 function printMessage(msg) {
-    var div = document.createElement('div');
+    const div = document.createElement('div');
     div.innerHTML = msg;
     document.getElementById('messages').appendChild(div);
 }
@@ -9,7 +9,7 @@ function clearMessages() {
 }
 
 
-var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput, playerName;
+let argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput, playerName;
 
 /**
  * Describe this function...
